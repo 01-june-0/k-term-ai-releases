@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>kTerm.AI — 터미널 · SSH · 파일 · AI를 한 화면에</title>
-<meta name="description" content="터미널, SSH, 파일 전송, AI를 한 앱에서. 쓰고 있는 Claude Code · Codex 구독을 터미널 옆에서 바로 씁니다. macOS · Windows 테스트 버전.">
+<meta name="description" content="터미널, SSH, 파일 전송, AI를 한 앱에서. 쓰고 있는 Claude Code · Codex · Antigravity(Gemini) 구독을 터미널 옆에서 바로 씁니다. macOS · Windows 테스트 버전.">
 <meta property="og:title" content="kTerm.AI — 터미널 옆에 AI를 두세요">
 <meta property="og:description" content="터미널, SSH, 파일 전송, AI를 한 화면에. macOS · Windows 테스트 버전.">
 <meta property="og:image" content="https://01-june-0.github.io/k-term-ai-releases/assets/og.jpg">
@@ -50,10 +50,11 @@ img, video { display: block; max-width: 100%; }
 .brand:hover { text-decoration: none; }
 .brand img { width: 30px; height: 30px; }
 .brand .wm { font-size: 21px; }
-.nav { display: flex; gap: 22px; font-size: 15px; font-weight: 600; }
+.nav { display: flex; align-items: center; gap: 22px; font-size: 15px; font-weight: 600; line-height: 1; }
+.nav a { display: inline-flex; align-items: center; }
 .nav a { color: var(--dim); }
 .nav a:hover { color: var(--text); text-decoration: none; }
-.nav .cta { color: var(--bg); background: var(--live); padding: 6px 14px; border-radius: 999px; }
+.nav .cta { color: var(--bg); background: var(--live); padding: 9px 16px; border-radius: 999px; }
 .nav .cta:hover { color: var(--bg); filter: brightness(1.08); }
 
 /* ---------- hero ---------- */
@@ -194,7 +195,7 @@ dialog img { width: auto; max-width: 100%; max-height: calc(100vh - 110px); marg
     <span class="pill"><span class="dot"></span>macOS · Windows 테스트 버전<span id="ver"></span></span>
     <img class="hero-icon" src="assets/icon-256.png" alt="kTerm.AI 아이콘">
     <h1>터미널, SSH, 파일, AI<br><span class="hl">한 화면에서</span> 끝내세요</h1>
-    <p class="lead">서버를 더블클릭하면 터미널과 파일 목록이 함께 열리고, 명령어가 기억나지 않으면 터미널 옆에서 <b>말로 물어보면</b> 됩니다. 쓰고 있는 <b>Claude Code · Codex 구독</b>을 그대로 연결해요.</p>
+    <p class="lead">서버를 더블클릭하면 터미널과 파일 목록이 함께 열리고, 명령어가 기억나지 않으면 터미널 옆에서 <b>말로 물어보면</b> 됩니다. 쓰고 있는 <b>Claude Code · Codex · Antigravity(Gemini) 구독</b>을 그대로 연결해요.</p>
 
     <div class="install">
       <div class="tabs" role="tablist">
@@ -273,7 +274,7 @@ dialog img { width: auto; max-width: 100%; max-height: calc(100vh - 110px); marg
 
     <div class="faq">
       <details><summary>AI 기능을 쓰려면 무엇이 필요한가요?</summary>
-        <p>Claude Code · Codex · Antigravity 중 쓰고 있는 CLI가 설치·로그인되어 있으면 그 구독을 그대로 씁니다. 구독 대신 API 키(Claude · GPT · Gemini)도 됩니다. 앱의 설정 → AI에 설치 방법 안내가 있어요.</p></details>
+        <p>Claude Code · Codex · Antigravity(Gemini) 중 쓰고 있는 CLI가 설치·로그인되어 있으면 그 구독을 그대로 씁니다. 구독 대신 API 키(Claude · GPT · Gemini)도 됩니다. 앱의 설정 → AI에 설치 방법 안내가 있어요.</p></details>
       <details><summary>AI가 제 서버에서 마음대로 명령을 실행하나요?</summary>
         <p>아니요. AI는 도구를 쓸 수 없게 잠근 채 답만 합니다. 명령은 터미널에 넣어 주기만 하고, 실행 버튼은 직접 누릅니다. 보내기 전에 무엇이 가는지 미리 보여 주고, 비밀번호 · API 키 · 토큰은 자동으로 가립니다.</p></details>
       <details><summary>업데이트는 어떻게 하나요?</summary>

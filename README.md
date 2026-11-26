@@ -2,7 +2,7 @@
 
 <h1 align="center">kTerm.AI</h1>
 
-<p align="center"><b>터미널 · SSH · 파일 · AI를 한 화면에</b><br>쓰고 있는 Claude Code · Codex 구독을 터미널 옆에서 바로 씁니다.<br>macOS · Windows 테스트 버전</p>
+<p align="center"><b>터미널 · SSH · 파일 · AI를 한 화면에</b><br>쓰고 있는 Claude Code · Codex · Antigravity(Gemini) 구독을 터미널 옆에서 바로 씁니다.<br>macOS · Windows 테스트 버전</p>
 
 <p align="center"><a href="https://01-june-0.github.io/k-term-ai-releases/"><b>소개 페이지</b></a> · <a href="https://01-june-0.github.io/k-term-ai-releases/#demo">45초 시연 영상</a> · <a href="https://github.com/01-june-0/k-term-ai-releases/releases/latest">최신 릴리스</a></p>
 
@@ -46,7 +46,7 @@ curl -fsSL https://raw.githubusercontent.com/01-june-0/k-term-ai-releases/main/i
 - **macOS**: 위 설치 명령으로 설치하면 바로 열립니다. 릴리스 페이지에서 zip을 직접 받아 풀면 "확인되지 않은 개발자" 경고로 열리지 않으니 설치 명령을 써 주세요.
 - **Windows**: "Windows의 PC 보호" 창이 뜨면 **추가 정보 → 실행**을 누르세요.
 - macOS에서 처음 실행할 때 키체인 접근을 묻는 창이 뜰 수 있습니다. **항상 허용**을 누르면 됩니다.
-- AI 기능(Claude Code · Codex · Antigravity)은 각 CLI가 따로 설치·로그인되어 있어야 합니다. 앱의 설정 화면에 설치 방법 안내가 있습니다.
+- AI 기능(Claude Code · Codex · Antigravity(Gemini))은 각 CLI가 따로 설치·로그인되어 있어야 합니다. 앱의 설정 화면에 설치 방법 안내가 있습니다.
 
 ## 삭제
 
